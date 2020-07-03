@@ -56,7 +56,7 @@ const Timer = () => {
         <input type="number" name="setTime" onChange={inputChange} placeholder="Set Lottery Time" /> <span>minutes</span>
         <button className="btn btn-default" onClick={counter}  disabled = {isBtnDisable}>Setting</button>
         {
-            isBtnShow && <Link href="/result"><button className="btn btn-primary" disabled = {isBtnDisable}><a>WINNING LIST</a></button></Link>
+            isBtnShow && <Link href="/result"><button className="btn btn-primary" disabled = {isBtnDisable}><a>Winner LIST</a></button></Link>
         }
 
         <div>
